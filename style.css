@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background-color: #000000;
+}
+h1{
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: bold;
+  margin: 50px;
+}
+
+.accordion{
+    max-width: 900px ;
+    margin: 50px auto;
+    border: none;
+   
+}
+.accordion-button{
+    background-color: #262a2a !important;
+    color: #FFFFFF!important;
+    position: relative;
+
+    font-size: 1.5rem;
+    box-shadow: none !important;
+    
+}
+.accordion-body h4{
+  
+   font-size: medium;
+}
+.accordion-item{
+margin-bottom: 10px;
+border: none;
+background-color: #262a2a;
+color: #FFFFFF;
+}
+.accordion-button:hover{
+    background: rgb(55, 55, 55) !important;
+}
+
